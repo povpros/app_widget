@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "943508186592",
+    "firebase_url": "https://shop-b95e1.firebaseio.com",
+    "project_id": "shop-b95e1",
+    "storage_bucket": "shop-b95e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943508186592:android:235c947f925ab9e54b3785",
+        "android_client_info": {
+          "package_name": "com.example.homewidget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943508186592-ll6q7dved34erpkfobfa0kamr8jfckmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homewidget",
+            "certificate_hash": "7a58d4a1c56c94485a27d281d07d725408e31092"
+          }
+        },
+        {
+          "client_id": "943508186592-nn02utligbah9nbm97334sonqlgb3rd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homewidget",
+            "certificate_hash": "f3cb28714852b82cdfbcccbe04e924f559a7b9cc"
+          }
+        },
+        {
+          "client_id": "943508186592-tpsvku1t99ecos6p0pfqap77s2d2e2lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiVcb8x3AkYGxj44P0xM3JnffpTNIXCI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943508186592-tpsvku1t99ecos6p0pfqap77s2d2e2lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943508186592:android:a532768cb52f3c254b3785",
+        "android_client_info": {
+          "package_name": "com.samrorn.cafeshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943508186592-timg5973jjnm4pjrtphn5ua2ofelgnl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samrorn.cafeshop",
+            "certificate_hash": "75932371fd093700fb48689bc6e96c918ec3cd1b"
+          }
+        },
+        {
+          "client_id": "943508186592-tpsvku1t99ecos6p0pfqap77s2d2e2lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiVcb8x3AkYGxj44P0xM3JnffpTNIXCI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943508186592-tpsvku1t99ecos6p0pfqap77s2d2e2lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

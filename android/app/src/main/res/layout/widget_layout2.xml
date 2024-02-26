@@ -1,0 +1,135 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#868785"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Sample widget" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Widget" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/rgx_logo" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Card 1 -->
+        <LinearLayout
+            android:id="@+id/nftCard"
+            android:layout_width="100dp" 
+            android:layout_height="100dp" 
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/nft_icon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                 android:gravity="center"
+                android:text="NFT" />
+
+        </LinearLayout>
+
+        <!-- Card 2 -->
+        <LinearLayout
+          
+            android:id="@+id/oneId"
+            
+            android:layout_width="100dp" 
+            android:layout_height="100dp" 
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+              android:gravity="center"
+          >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/property_icon"
+              />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                 android:gravity="center"
+                android:text="Property"
+                />
+
+        </LinearLayout>
+                <!-- Card 3 -->
+        <LinearLayout
+          
+             android:id="@+id/twoId"
+            android:layout_width="100dp" 
+            android:layout_height="100dp" 
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/market_trading_icon"
+              />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                 android:gravity="center"
+                android:text="Market Trading"
+              />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
